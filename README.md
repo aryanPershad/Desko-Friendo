@@ -10,3 +10,4 @@ Tools used:
 OpenAI API, Python, Elegoo Uno R3(Arduino), electron components (Buzzer, LEDS, wires, breadboard, resistor, LCD screen), LiquidCrystal Library.  
 
 
+demo: https://youtube.com/shorts/GVKOxTPkwrQ?feature=share
