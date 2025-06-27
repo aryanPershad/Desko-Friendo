@@ -11,3 +11,11 @@ OpenAI API, Python, Elegoo Uno R3(Arduino), electron components (Buzzer, LEDS, w
 
 
 demo: https://youtube.com/shorts/GVKOxTPkwrQ?feature=share
+
+
+How it Works:
+The user is prompted to type a question into the terminal, the Python script sends that question to OpenAI----> GPT responds and then the python script sends that response to the Arduino(bot) over USB Serial connection 
+
+This is possible through the Pyserial library which allows Python program to talk to Arduino through usb. There is also the Arduino IDE but that uses a specific type Arduino language based on c++ and cannot handle tasks like calling an API or speaking with text-to-speech. That’s why Python and Arduino work together in this project. Python handles the smart stuff (chat, voice), and Arduino handles the physical display and responses (LCD, LEDs, buzzer). 
+
+
